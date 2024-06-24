@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <title>project form</title>
+    </head>
+    <body style="background-color: blanchedalmond;">
+        <p align="center"><span style="color:aquamarine; background-color: black; 
+        font-size: 70; outline:8px solid palevioletred">Customer Registration Form</span></p>
+
+        <br/>
+        <br/>
+
+        <form>
+        <h1><span style="color:palevioletred; background-color: black;">Personal Information:</span></h1>
+
+        <br/>
+
+        <label for="first name"><span style="color: blue">First Name:</span></label>
+        <input type="text"id="first name" placeholder="ABC" required/>
+
+        <br/>
+        <br/>
+
+        <label for="last name"><span style="color:blue">Last Name:</span></label>
+        <input type="text" id="last name" placeholder="ABC" required/>
+
+        <br/>
+        <br/>
+
+        <label for="age"><span style="color:blue">Age:</span></label>
+        <input type="number" id="age"/>
+
+        <br/>
+        <br/>
+
+        <label for="dob"><span style="color:blue">DOB:</span></label>
+        <input type="date" id="dob" required/>
+
+        <label for="email"><span style="color: blue">Email:</span></label>
+        <input type="email" id="email" placeholder="ex: email@yahoo.com" required/>
+
+        <br/>
+        <br/>
+
+        <label for="phone number"><span style="color: blue">Phone Number:</span></label>
+        <input type="number" id="phone number" placeholder="(000) 000-0000"/>
+
+        <br/> 
+        <br/>
+
+        <label for="gender"><span style="color: blue"></span></label>
+        <input type="radio" id="male" name="gender"/><label for="male">Male</label>
+        <input type="radio" id="female" name="gender"/><label for="female">Female</label>
+        <input type="radio" id="others" name="gender"/><label for="others">Others</label>
+
+        <br/>
+        <br/>
+
+        <h3><div style="background-color: yellow; width:70; height:30;
+        border: 2px solid black">Address:</div></h3>
+        <textarea type="address" id="address" cols="70" row="10"></textarea>
+           
+        <br/>
+        <br/>
+
+        <label for="state"><span style="color:blue">State:</span></label>
+        <input type="text" id="state" placeholder="ABC"/>
+
+        <label for="city"><span style="color:blue">City:</span></label>
+        <input type="text" id="city" placeholder="ABC"/>
+
+        <br/>
+        <br/>
+
+        <label for="pincode"><span style="color: blue">Pincode:</span></label>
+        <input type="number" id="pincode" minlength="6" maxlength="6" placeholder="143001"/>
+
+        <br/>
+        <br/>
+          
+        <h2 align="center" style="color:brown;background-color:
+         blanchedalmond;outline: 2px groove black">Questionaire</h2>
+        
+        <br/>
+        <br/>
+
+        <p><span style="color: brown">How Did You Hear About Us?</span></p>
+        <select name="optiom" id="option">
+            <option value="">--Please Select--</option>
+            <option value="newspaper">Newspaper</option>
+            <option value="internet">Internet</option>
+            <option value="other">Other</option>
+        </select>
+        
+        <br/>
+        <br/>
+
+        <p><span style="color: brown">Feedback About Us</span></p>
+        <textarea type="text" id="text" cols="70" rows="10"></textarea>
+        
+        <br/>
+        <br/>
+        
+        <p><span style="color: brown">Suggestions If Any For Further Improvement</span></p>
+        <textarea type="text" id="text" cols="70" rows="10"></textarea>
+
+        <br/>
+        <br/>
+
+        <p><span style="color:brown">Will You Recommend Our Product?</span></p>
+        <input type="radio" id="yes" name="options"/><label for="yes">Yes</label>
+        <br/>
+        <input type="radio" id="no" name="options"/><label for="no">No</label>
+        <br/>
+        <input type="radio" id="may be" name="options"/><label for="may be">May Be</label>
+
+        <br/>
+        <br/>
+
+        <p><span style="color: brown">Please Give Reference Of Two Whom You Feel:</span></p>
+        <textarea type="text" id="text" col="50" rows="10"></textarea>
+        
+        <br/>
+        <br/>
+
+        <label for="submit"></label>
+        <button type="submit" id="submit">SUBMIT</button>
+
+        <label for="reset"></label>
+        <button type="reset" id="reset">RESET</button>
+
+        <br/>
+
+        <a href="project advertisement.html">home</a>
+        </form>
+    </body>
+</html>
