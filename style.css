@@ -1,0 +1,82 @@
+p{
+    color:brown;
+}
+
+h1{
+    background-color: chocolate;
+    color: black;
+}
+
+h5,a{
+    color:gold;
+}
+
+li{
+    list-style-type: circle;
+}
+
+.special{
+    color: blue;
+    font-weight: bold;
+}
+
+span.special{
+    color: purple;
+    font-weight: bold;
+}
+
+ol li{
+    color: red;
+}
+
+h2+h3{
+    color: darkblue;
+    outline: 4px solid black;
+}
+
+a:hover{
+    color: saddlebrown;
+    text-decoration:none;
+}
+
+body h3+h4 .special{
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
+
+#heading{
+    color: red;
+    background-color: black;
+    font-size: 30px;
+}
+
+li[class="a"]{
+    color: darkgreen;
+}
+
+ul>li{
+    list-style-type: square;
+}
+
+input[type="text"]{
+    width: 200px;
+    outline: 4px double greenyellow;
+}
+
+input[type="email"]{
+    width: 200px;
+    outline: 4px double aqua;
+}
+
+div p{
+    color: crimson;
+}
+ 
+div p:nth-child(2){
+    color:coral;
+    outline: 3px dashed black;
+}
+ div p:first-child{
+    color: blue;
+ }
