@@ -44,7 +44,7 @@ nav ul a::after{
 }
 nav ul a:hover::after{
     width:100%;
-    background-color: rgb(249, 227, 97); ;
+    background-color: rgb(249, 227, 97); 
 }
 
 .button{
@@ -162,14 +162,10 @@ h2{
     /* background-color: blue; */
     position: relative;
 }
-#sqr{
-    /* padding: 15px; */
    
-}
 #sqr:hover{
     transform: scale(1.5);
 }
-
 
 .salon{
     /* padding: 15px; */
