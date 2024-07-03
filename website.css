@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Merienda", cursive; */
+    font-weight: bold;
+    font-size: 20px;
+}
+header{
+    height: 80px;
+    width: 100%;
+    /* background-color: palegoldenrod; */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position:sticky; 
+    border-bottom: 0.5px solid black ;
+    box-shadow: 0 1px 13px goldenrod;
+}
+
+nav{
+    margin-right: 15px;
+
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul a::after{
+    content:"";
+    height: 3px;
+    width:0;
+    display: block;
+    transition: all ease-out 1s;
+}
+nav ul a:hover::after{
+    width:100%;
+    background-color: rgb(249, 227, 97); ;
+}
+
+.button{
+    border:0;
+    text-transform: uppercase;
+    cursor:pointer;
+    font-size: 20px;
+    background-color: rgb(249, 227, 97);
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color:goldenrod;
+}
+.nav2{
+    /* margin-right: 15px; */
+    border-bottom: 0.5px solid black ;
+    box-shadow: 0 1px 13px goldenrod;
+    position: sticky;
+    width:100%;
+}
+.nav2 #ul2{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #272727;
+}
+.nav2 #ul2 b{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+.nav2 #ul2 b:hover{
+    color: goldenrod;
+}
+
+.nav2 #ul2 b::after{
+    content:"";
+    height: 3px;
+    width:0;
+    display: block;
+    transition: all ease-out 1s;
+}
+.nav2 #ul2 b:hover::after{
+    width:100%;
+    background-color: rgb(249, 227, 97); 
+}
+
+main{
+    background-color: black;
+    height: calc(100vh - 120px);
+    text-align: center;
+}
+.loreal-salon{
+    width: 90%;
+    height: 90%;
+    margin-top: 30px;
+}
+.sec2{
+height: calc(100vh - 100px);
+display: flex;
+background-color: black;
+}
+.content_left{
+    width: 50%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color:white;
+    font-size: 40px;
+}
+.heading{
+    padding: 15px;
+    /* text-decoration: double underline; */
+    color: white;
+    font-size: 40px;
+    /* text-shadow: 2px 2px 5px gold; */
+}
+.heading::after{
+    content:"";
+    height: 5px;
+    width:100%;
+    background-color: goldenrod;
+    display: block;
+}
+.parah{
+    padding: 15px;
+    color: white;
+    margin-bottom: 20px;
+}
+.button{
+    padding: 15px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 12px goldenrod ;
+    background-color: azure;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.button:hover{
+    background-color: gold;
+    box-shadow: 2px 2px 12px black;
+
+}
+
+.content_right{
+    width: 50%;
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    /* background-color: blue; */
+    position: relative;
+}
+#sqr{
+    /* padding: 15px; */
+   
+}
+#sqr:hover{
+    transform: scale(1.5);
+}
+
+
+.salon{
+    /* padding: 15px; */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding: 16px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    opacity: 0.9;
+    color: red;
+}
+.sec1{
+    text-align: center;
+    align-items: center;
+    height: 550px;
+}
+.container2{
+    background-color: aliceblue;
+    width: auto;
+    height: 500px;
+}
+.heading2{
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: double underline;
+    text-shadow: 2px 2px 5px gold;
+}
+.parah2{
+    text-align: center;
+    padding: 30px;
+}
+
+   
+.img{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.images{
+    /* width: 200px; */
+    height: 250px;
+    /* margin: 10px; */
+    /* padding-right: 20px; */
+    transition: all 1s ease-in;
+}
+.images:hover{
+transform: scale(1.5);
+
+}
+.img1-parent {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding: 16px;
+    background-color: white;
+    color:red;
+    font-weight: bold;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+
+
+
+footer{
+height: 200px;
+background-color: black;
+position: sticky;
+border-top: 0.5px solid black ;
+box-shadow: 0 2px 10px goldenrod;
+}
+
