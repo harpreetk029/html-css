@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid</title>
+    <style>
+        .container{
+            background-color: beige;
+            height: 100vh;
+            display: grid;
+            /* grid-template-columns: 150px 150px 150px;
+            grid-template-rows: 150px 150px 150px; */
+            grid-template-rows: 80px 1fr 80px;
+            grid-template-columns: 350px 1050px;
+            row-gap: 30px;
+            column-gap: 30px;
+        } 
+        #item-1{
+            /* grid-column-start: 1;
+            grid-column-end: 4 ; */
+            grid-column: 1/4;
+            background-color: gray;
+            text-align: center;
+            font-size: 50px;
+            border: 3px solid rgb(112, 92, 92);
+        }
+        #item-4{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            background-color: gray;
+            text-align: center;
+            font-size: 50px;
+            border: 3px solid rgb(112, 92, 92);
+        }
+        #item-2{
+            background-color: lightskyblue;
+            border: 3px solid rgb(4, 87, 114);
+            display: grid;
+            grid-template-rows: 100px 100px 100px;
+            row-gap: 30px;
+        } 
+        #item-3{
+            background-color: plum;
+            border: 3px solid rgb(134, 6, 134);
+            text-align: left;
+        
+        }
+        .text{
+            margin: 20px;
+            width: 60%;
+        }
+        .boxes{
+          background-color: rgb(138, 138, 249);
+          border: 3px solid rgb(37, 37, 99);
+          justify-self: center;
+          width: 250px;
+          height: 100px;
+          margin: 30px;
+        }  
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items" id="item-1">This is a header</div>
+        <div class="items" id="item-2">
+
+    
+            <div class="boxes"></div> 
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+
+        </div>
+        <div class="items" id="item-3">
+            <div class="text">
+            <h1>Lorem ipsum dolor sit amet</h1>
+            <p>consectetur adipisicing elit. Velit, obcaecati ipsa deserunt voluptate voluptatibus omnis alias quae non vitae officia aspernatur cum necessitatibus dicta, et at eum autem ipsum tempore.Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, obcaecati ipsa deserunt voluptate voluptatibus omnis alias quae non vitae officia aspernatur cum necessitatibus dicta, et at eum autem ipsum       tempore consectetur adipisicing elit. Velit, obcaecati ipsa deserunt voluptate voluptatibus omnis alias quae non vitae officia aspernatur cum necessitatibus dicta, et at eum autem ipsum tempore.Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, obcaecati ipsa deserunt voluptate voluptatibus omnis alias quae non vitae officia aspernatur cum necessitatibus dicta, et at eum autem ipsum    </p>
+            <p>consectetur adipisicing elit. Velit, obcaecati ipsa deserunt voluptate voluptatibus omnis alias quae non vitae officia aspernatur cum necessitatibus dicta, et at eum autem ipsum tempore.Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, obcaecati ipsa deserunt voluptate voluptatibus omnis alias quae non vitae officia aspernatur cum necessitatibus dicta, et at eum autem ipsum    </p>
+            </div>
+        </div>
+        <div class="items" id="item-4">This is a footer</div>
+        
+    </div>
+</body>
+</html>
